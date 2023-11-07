@@ -3,10 +3,11 @@
 // При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 
-string[] array1 = new string[7] { "first", "1", "text", "2", "3", "home", "theme" };
+string[] array1 = new string[8] { "first", "1", "text", "2", "3", "home", "theme", "GO"};
 string[] array2 = new string[array1.Length];
 
-
+NewArray(array1, array2);
+PrintArray(array2);
 
 
 void NewArray(string[] arrayFirst, string[] arraySecond)
